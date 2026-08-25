@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Free Hindi AI-style story generator. Create short stories instantly and copy them for videos, reels and shorts.">
+  <meta name="theme-color" content="#6d28d9">
+  <title>Kahani AI — Free Hindi Story Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">📖 Kahani <span>AI</span></div>
+    <a href="#about">About</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="badge">✨ FREE HINDI STORY GENERATOR</p>
+      <h1>अपनी कहानी <span>कुछ सेकंड</span> में बनाइए</h1>
+      <p class="sub">YouTube Shorts, Instagram Reels और बच्चों की कहानियों के लिए मज़ेदार हिंदी कहानियाँ बनाएं।</p>
+    </section>
+
+    <section class="adbox" aria-label="Advertisement">
+      <small>Advertisement</small>
+      <!-- Replace this area with your approved Google AdSense ad unit after AdSense approval. -->
+    </section>
+
+    <section class="card">
+      <label for="topic">कहानी का विषय</label>
+      <input id="topic" maxlength="80" placeholder="जैसे: एक गरीब बच्चा और वफादार कुत्ता">
+      <div class="row">
+        <select id="genre" aria-label="Genre">
+          <option value="emotional">Emotional</option>
+          <option value="comedy">Comedy</option>
+          <option value="moral">Moral</option>
+          <option value="adventure">Adventure</option>
+          <option value="kids">Kids</option>
+        </select>
+        <select id="length" aria-label="Length">
+          <option value="short">30 सेकंड</option>
+          <option value="medium">1 मिनट</option>
+          <option value="long">2 मिनट</option>
+        </select>
+      </div>
+      <button id="generate">✨ कहानी बनाएं</button>
+      <div id="status" class="status"></div>
+    </section>
+
+    <section id="result" class="card result hidden">
+      <div class="result-head"><h2>आपकी कहानी</h2><button id="copy">कॉपी</button></div>
+      <pre id="story"></pre>
+      <button id="share" class="secondary">📤 शेयर करें</button>
+    </section>
+
+    <section class="adbox" aria-label="Advertisement"><small>Advertisement</small></section>
+
+    <section id="about" class="info">
+      <h2>Kahani AI क्या है?</h2>
+      <p>यह एक free story-generation website है। आप विषय चुनकर तुरंत हिंदी कहानी बना सकते हैं और उसे अपने वीडियो या सोशल मीडिया कंटेंट में इस्तेमाल कर सकते हैं।</p>
+      <p class="note">कमाई के लिए वेबसाइट पर वैध advertising, affiliate links या premium features लगाए जा सकते हैं। किसी भी कमाई की गारंटी नहीं होती।</p>
+    </section>
+  </main>
+
+  <footer>© 2026 Kahani AI · <a href="privacy.html">Privacy Policy</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
